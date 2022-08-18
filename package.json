@@ -1,0 +1,23 @@
+{
+  "name": "room-creation-listener",
+  "version": "1.0.0",
+  "description": "Slack Event Subscriber",
+  "main": "lib/app.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node lib/app.js"
+  },
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@slack/bolt": "^3.12.1"
+  },
+  "devDependencies": {
+    "@tsconfig/node16": "^1.0.3",
+    "nodemon": "^2.0.19"
+  }
+}
